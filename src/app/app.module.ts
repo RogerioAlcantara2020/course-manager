@@ -9,7 +9,7 @@ import { ReplacePipe } from './pipe/replace.pipe';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { RouterModule } from '@angular/router';
 import { Error404Component } from './error-404/error-404.component';
-import { CourseInfoComponent } from './courses/course-info.component';
+// import { CourseInfoComponent } from './courses/course-info.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +18,8 @@ import { CourseInfoComponent } from './courses/course-info.component';
     StarComponent,
     ReplacePipe,
     NavBarComponent,
-    Error404Component,
-    CourseInfoComponent
+    Error404Component
+    // CourseInfoComponent
   ],
   imports: [
     BrowserModule,
@@ -31,9 +31,9 @@ import { CourseInfoComponent } from './courses/course-info.component';
       {
         path: 'courses', component: CourseListComponent
       },
-      {
-        path: 'course/info/:id', component: CourseInfoComponent
-      },
+      // {
+      //   path: 'course/info/:id', component: CourseInfoComponent
+      // },
       {
         path:'**',component:Error404Component
       }
