@@ -5,6 +5,9 @@
 /tmp
 /out-tsc
 /src-BKP.zip
+/src-BKP1.zip
+/src-BKP2.zip
+/src-BKP3.zip
 # Only exists if Bazel was run
 /bazel-out
 
